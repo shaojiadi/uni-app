@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/uni-style/uni-style",
     "pages/message/message",
     "pages/index/index",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "pages/detail/detail"
   ],
   "subPackages": [],
   "window": {
@@ -14,6 +16,8 @@
     "backgroundTextStyle": "light"
   },
   "tabBar": {
+    "color": "#4CD964",
+    "selectedColor": "#DD524D",
     "list": [
       {
         "text": "首页",
