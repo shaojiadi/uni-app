@@ -4,7 +4,7 @@
 			<view class="box"  :hover-start-time="2000"   hover-class="box-active" hover-stop-propagation>详情页</view>
 		</view>
 		<view>
-			<text selectable="true">武动乾坤</text>
+			<text selectable="true">{{msg}}</text>
 		</view>
 		<view>
 			<text space="nbsp">创建       下周</text>
@@ -18,6 +18,13 @@
 </template>
 
 <script>
+	export default{
+		data(){
+			return {
+				msg: 'hello'
+			}
+		}
+	}
 </script>
 
 <style>
