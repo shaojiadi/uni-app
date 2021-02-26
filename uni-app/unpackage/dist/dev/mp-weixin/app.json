@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/message/message",
+    "pages/index/index",
+    "pages/contact/contact"
   ],
   "subPackages": [],
   "window": {
@@ -10,6 +12,28 @@
     "backgroundColor": "#4CD964",
     "enablePullDownRefresh": true,
     "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab/home.png",
+        "selectedIconPath": "static/tab/home-active.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tab/message.png",
+        "selectedIconPath": "static/tab/message-active.png"
+      },
+      {
+        "text": "我们",
+        "pagePath": "pages/contact/contact",
+        "iconPath": "static/tab/lx.png",
+        "selectedIconPath": "static/tab/lx-active.png"
+      }
+    ]
   },
   "usingComponents": {}
 }
