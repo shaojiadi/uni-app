@@ -149,13 +149,20 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
 var _default =
 {
   data: function data() {
     return {
-      msg: 'hello' };
+      msg: 'hello',
+      imgUrl: 'http://destiny001.gitee.io/image/cxk.gif' };
 
-  } };exports.default = _default;
+  },
+  methods: {
+    clickHandle: function clickHandle(num, e) {
+      console.log(num, e);
+    } } };exports.default = _default;
 
 /***/ }),
 

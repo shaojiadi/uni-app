@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/uni-style/uni-style",
     "pages/message/message",
-    "pages/index/index",
     "pages/contact/contact",
     "pages/detail/detail"
   ],
@@ -12,7 +12,6 @@
     "navigationBarTitleText": "UNI",
     "navigationBarBackgroundColor": "#7fff00",
     "backgroundColor": "#4CD964",
-    "enablePullDownRefresh": true,
     "backgroundTextStyle": "light"
   },
   "tabBar": {

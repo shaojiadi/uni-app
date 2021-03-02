@@ -12,8 +12,10 @@
 		<view>
 			<text space="emsp">创建       下周</text>
 		</view>
-		<image src="http://destiny001.gitee.io/image/cxk.gif" mode="aspectFill"></image>
-		<button size="mini" type="primary" plain>按钮</button>
+		<image :src="imgUrl" mode="aspectFill"></image>
+		<view>
+			<button size="mini" type="primary" plain @click="clickHandle(20,$event)">按钮</button>
+		</view>
 	</view>
 </template>
 
@@ -21,7 +23,13 @@
 	export default{
 		data(){
 			return {
-				msg: 'hello'
+				msg: 'hello',
+				imgUrl: 'http://destiny001.gitee.io/image/cxk.gif'
+			}
+		},
+		methods:{
+			clickHandle(num,e){
+				console.log(num,e)
 			}
 		}
 	}

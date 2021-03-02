@@ -130,7 +130,13 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _iterableToArray(iter) {if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) return _arrayLikeToArray(arr);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;} //
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -143,13 +149,38 @@ var _default =
 {
   data: function data() {
     return {
-      title: 'Hello' };
+      title: 'Hello',
+      userList: ['小王', '小明', '小芳', '小夏', '网名'] };
 
   },
   onLoad: function onLoad() {
-
+    console.log('页面加载');
   },
-  methods: {} };exports.default = _default;
+  onShow: function onShow() {
+    console.log('页面显示');
+  },
+  onReady: function onReady() {
+    console.log('页面初次渲染');
+  },
+  onHide: function onHide() {
+    console.log('页面隐藏');
+  },
+  onPullDownRefresh: function onPullDownRefresh() {
+    console.log('触发了下拉刷新');
+    setTimeout(function () {
+      uni.stopPullDownRefresh(); //停止当前页面下拉刷新
+    }, 2000);
+  },
+  onReachBottom: function onReachBottom() {
+    console.log('页面触底');
+    this.userList = [].concat(_toConsumableArray(this.userList), [888, 999, 111]);
+    console.log(this.userList);
+  },
+  methods: {
+    pullDown: function pullDown() {
+      uni.startPullDownRefresh(); //开始下拉刷新
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 

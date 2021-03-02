@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view></view>
+<view class="content"><image class="logo" src="/static/tab/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view><block wx:for="{{userList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="user">{{''+item+''}}</view></block><view><button type="primary" data-event-opts="{{[['tap',[['pullDown',['$event']]]]]}}" bindtap="__e">按钮</button></view></view>
