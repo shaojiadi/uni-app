@@ -1,1 +1,1 @@
-<view>hello-uni</view>
+<view><button data-event-opts="{{[['tap',[['getInfo',['$event']]]]]}}" bindtap="__e">发送get请求</button></view>
