@@ -1,43 +1,42 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/uni-style/uni-style",
-        "pages/message/message",
-        "pages/contact/contact",
-        "pages/detail/detail"
-    ],
-    "subPackages": [],
-    "window": {
-        "navigationBarTextStyle": "white",
-        "navigationBarTitleText": "UNI",
-        "navigationBarBackgroundColor": "#7fff00",
-        "backgroundColor": "#4CD964",
-        "backgroundTextStyle": "light"
-    },
-    "tabBar": {
-        "color": "#4CD964",
-        "selectedColor": "#DD524D",
-        "list": [
-            {
-                "text": "首页",
-                "pagePath": "pages/index/index",
-                "iconPath": "static/tab/home.png",
-                "selectedIconPath": "static/tab/home-active.png"
-            },
-            {
-                "text": "消息",
-                "pagePath": "pages/message/message",
-                "iconPath": "static/tab/message.png",
-                "selectedIconPath": "static/tab/message-active.png"
-            },
-            {
-                "text": "我们",
-                "pagePath": "pages/contact/contact",
-                "iconPath": "static/tab/lx.png",
-                "selectedIconPath": "static/tab/lx-active.png"
-            }
-        ]
-    },
-    "usingComponents": {},
-    "sitemapLocation": "sitemap73.json"
+  "pages": [
+    "pages/index/index",
+    "pages/uni-style/uni-style",
+    "pages/message/message",
+    "pages/contact/contact",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "UNI",
+    "navigationBarBackgroundColor": "#7fff00",
+    "backgroundColor": "#4CD964",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#4CD964",
+    "selectedColor": "#DD524D",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab/home.png",
+        "selectedIconPath": "static/tab/home-active.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tab/message.png",
+        "selectedIconPath": "static/tab/message-active.png"
+      },
+      {
+        "text": "我们",
+        "pagePath": "pages/contact/contact",
+        "iconPath": "static/tab/lx.png",
+        "selectedIconPath": "static/tab/lx-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
 }

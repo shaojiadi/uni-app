@@ -27,6 +27,9 @@
 				imgUrl: 'http://destiny001.gitee.io/image/cxk.gif'
 			}
 		},
+		onLoad(options){
+			console.log(options)
+		},
 		methods:{
 			clickHandle(num,e){
 				console.log(num,e)
