@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/contact/contact",
     "pages/index/index",
     "pages/uni-style/uni-style",
     "pages/message/message",
-    "pages/contact/contact",
     "pages/detail/detail"
   ],
   "subPackages": [],

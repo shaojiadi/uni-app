@@ -7,14 +7,17 @@
 		<button @click="goUrl(1)">跳转至详情页</button>
 		<button @click="goUrl(2)">跳转至首页</button>
 		<button @click="goUrl(3)">跳转至详情页并关闭当前页面</button>
+		<test v-if="flag"></test>
+		<button @click="flag=!flag">组件按钮</button>
 	</view>
 </template>
 
 <script>
+import test from '../../components/test.vue'
 	export default {
 		data(){
 			return {
-				
+				flag: true
 			}
 		},
 		methods:{
@@ -34,6 +37,9 @@
 				}
 				
 			}
+		},
+		components:{
+			test
 		}
 	}
 </script>
