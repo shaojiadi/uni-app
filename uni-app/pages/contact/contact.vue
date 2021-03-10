@@ -9,11 +9,22 @@
 		<button @click="goUrl(3)">跳转至详情页并关闭当前页面</button>
 		<test v-if="flag"></test>
 		<button @click="flag=!flag">组件按钮</button>
+		<a></a>
+		<b></b>
+		<view>
+		<uni-calendar 
+			:insert="true"
+			:lunar="true" 
+			@change="change"
+			 />
+		</view>
 	</view>
 </template>
 
 <script>
 import test from '../../components/test.vue'
+import a from '../../components/a.vue'
+import b from '../../components/b.vue'
 	export default {
 		data(){
 			return {
@@ -36,10 +47,15 @@ import test from '../../components/test.vue'
 					});
 				}
 				
+			},
+			change(e){
+				console.log(e)
 			}
 		},
 		components:{
-			test
+			test,
+			a,
+			b
 		}
 	}
 </script>

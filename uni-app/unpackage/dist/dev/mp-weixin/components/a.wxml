@@ -1,0 +1,1 @@
+<view><text data-event-opts="{{[['tap',[['addNum',['$event']]]]]}}" bindtap="__e">修改b组件的数据</text></view>
