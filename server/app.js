@@ -65,6 +65,29 @@ router.get('/',async(ctx)=>{
   }) */
 })
 
+
+//显示学员信息
+router.get('/getLunbo',async(ctx)=>{    
+  ctx.body = {
+    status: 0,
+    message: [
+      {
+        id: 1,
+        imgUrl: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5d4298059889417157e8492750328492.jpg?w=632&h=340'
+      },
+      {
+        id: 2,
+        imgUrl: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8a43378b96501d7e227a9018fe2668c5.jpg?w=632&h=340'
+      },
+      {
+        id: 3,
+        imgUrl: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/793913688bfaee26b755a0b0cc8575fd.jpg?w=632&h=340'
+      }
+    ]
+  }
+})
+
+
 //增加学员
 router.get('/add',async(ctx)=>{
   await ctx.render('add');
