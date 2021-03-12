@@ -1,6 +1,10 @@
 <template>
 	<view >
-		
+		<swiper class="swiper" indicator-dots autoplay :interval="2000" :duration="500">
+			<swiper-item v-for="(item,index) in swipers" :key="index">
+				<image :src="item.imgUrl" mode="aspectFill"></image>
+			</swiper-item>
+		</swiper>
 	</view>
 </template>
 
@@ -8,7 +12,7 @@
 	export default {
 		data() {
 			return {
-				swipers: []
+				swipers: [],
 			}
 		},
 		onLoad() {
@@ -36,15 +40,23 @@
 				console.log(res)
 			} */
 			async getSwiper(){
-				const res = await this.$myRequest({
+				const res = await this.$myRequest({     //$myRequest main.js中全局注册
 					url: '/getLunbo'
 				})
-				console.log(res)
+				this.swipers = res.data.message;
+				console.log(this.swipers)
 			}
 		}
 	}
 </script>
 
-<style>
-	
+<style lang="scss">
+	.swiper {
+		width: 750rpx;
+		height: 400rpx;
+		image {
+			width: 100%;
+			height: 100%;
+		}
+	}
 </style>
