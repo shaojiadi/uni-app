@@ -5,6 +5,25 @@
 				<image :src="item.imgUrl" mode="aspectFill"></image>
 			</swiper-item>
 		</swiper>
+		<!-- 导航栏 -->
+		<view class="nav">
+			<view class="nav_item">
+				<view class="iconfont icon-xiaomi"></view>
+				<text>小米上新</text>
+			</view>
+			<view class="nav_item">
+				<view class="iconfont icon-bijiben"></view>
+				<text>笔记本</text>
+			</view>
+			<view class="nav_item">
+				<view class="iconfont icon-xingzhuang"></view>
+				<text>大家电</text>
+			</view>
+			<view class="nav_item">
+				<view class="iconfont icon-shouji"></view>
+				<text>手机</text>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -59,4 +78,28 @@
 			height: 100%;
 		}
 	}
+	.nav{
+		margin-top: 40rpx;
+		display: flex;
+		.nav_item {
+			width: 25%;
+			text-align: center;
+			margin: 0 auto;
+			view {
+				width: 100rpx;
+				height: 100rpx;
+				background: rgba(0,0,0,1);
+				border-radius: 60rpx;
+				font-size: 40rpx;
+				line-height: 100rpx;
+				text-align: center;
+				color: #fff;
+				margin: 0 auto;
+			}
+			text {
+				font-size: 30rpx;
+			}
+		}
+	}
+	
 </style>

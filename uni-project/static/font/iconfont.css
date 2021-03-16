@@ -1,0 +1,32 @@
+@font-face {font-family: "iconfont";
+	  src: url('~@/static/font/iconfont.eot?t=1615860810821'); /* IE9 */
+	  src: url('~@/static/font/iconfont.eot?t=1615860810821#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAUIAAsAAAAACdQAAAS8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqGbIVTATYCJAMUCwwABCAFhG0HUBtnCMgekqR7DRRQzgF6wAEcx8PXGvr+7t4FABSiChfGl4Usq6rICFfLwndqUZlqAL56N38vCWkbqYgIA3UNVX2qSp/Yl4iyMWfpiITOwLLaTRE+oKNCCpQCS/nK//9/r3LW8QRoXku2yxjz5WfsjQEMByhAc3RsLlVL5RakFeUOY5cX+TiBZuOsoeOh93doKPRtgbgq1ERoJKxKBTk0GuqCs0UGTQJPYxrCrgDXvZ+P17AW0iCpMuhPOnH+oMD6Gf7SEecknOzMATccArtExgJQiGuF2FXlIL0A1yz/XcU+0KxRkp7hz41eNL50lEiAotyQvtn4h0eRJUHUoGtbEWk/U3hWtqSRbghZZJ4nLBIvFvJr0VbOmWaMg+gCiFOg6ye841nRrmlEjlWmKEKRIaCGcZsYGXmKoBBjPLAKF4tTmWEgDlXo+Wq4SI3de1MHizVQ3ByKmqeKB030yFzA2jhlicKbT39IWxbdcpXdcwNSM9y96aKw/7YeahWtV5Obuxaw9hZujrL8vHkIKdTSGFXASMnB4ZxhLsGQ7Mjc0JTHcJhoPk1QIYWqDyG6RVZKrlmOJ1shi+QEy2mcnU27ezflzp1MU53si+NILE5rok+2vlL2ObHh6tmws3cNVtxJ3XPi7tGR46JjbcyeI9rE0qMu7P7jerxlx/LZkY0awIRoczJLMAXM8CaEWLixgWqlR+aL5lHU8BxuLp0zd+HakfWL0aJNwxvUT5XMRSE5X0fhDkm6kPEdz9XDToLNdyL5tLjtufovG+HZ9mQivqNshCV/rXS78MjEp4DND7d3GIP/fX8Y3fNMxWFlyh7wcy6fdjByO3btkGN2vHWMT+1IdkztkDA6ua8ve2R4QPBk8DrmGHVF+Qo1sT1CxceWqN1RpE6RIGRab3fIuLWnovW35K/WRSYLvi/Yu0tsK25xzce6OGQnCriufAEijsOiOSKuYEE0VsIXoiHiqw+uiCAhBsMN/1dy7XLrJ3a6JsTel+9UHXGtq0VEeN71Ulf33rCctf8Ip/9nyUUC42MBf/KP0TP0WH6T/lUw5+oV800KKTD6aewUq9T9kv91Y2MyoZD5KxPkVcTRPHKQHSAfN8AOkson2Xtj2mMvZcnHto9JOKCH8wNslbfoJfYA/OeKHc6B7PFsggf8eL/jl8tgb56c9zdpmgB4mrhEQkVz6d+jI8t+s75iC/BfUuw4hW6riiSzdEveWoHKFT1elvyPGvi5/N2eDGPse3HZ0KgvgqTBGMoaFRnEFdICVFpsQK3RHjSbF3a5RY9aZVFkgDl9AEKn7ZC0ewJZp6u4QnoMlX7voNYZODQ7F0q3bDEVQiqolsSIFCxsQWERu6rpiFp+7StpsS0GcYVH/aQgNGLoYGufzp3IpWCIA3WN2qK+XkV+LTsYCp5Gts1YXcsmydFEUB95Kzs7ftE7TYqqHGg5JkBEEaJAhXJISMZcqjM50sp8/yuiidlEQcVIWfgTCYSM2ZEDW/YNcCet22jkUhbXSWgW6kVUvIkvwBwoFCJiG2mGqotXmYgsMiHokPSs2KFx/KbayfR65x5PQTP9VVVgCEcE4iES6gOhyI5RLxSahkRuK17gaoUei05rrU7AsWkAAA==') format('woff2'),
+	  url('~@/static/font/iconfont.woff?t=1615860810821') format('woff'),
+	  url('~@/static/font/iconfont.ttf?t=1615860810821') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+	  url('~@/static/font/iconfont.svg?t=1615860810821#iconfont') format('svg'); /* iOS 4.1- */
+	}
+	
+	.iconfont {
+	  font-family: "iconfont" !important;
+	  font-size: 16px;
+	  font-style: normal;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
+	
+	.icon-xiaomi:before {
+	  content: "\e832";
+	}
+	
+	.icon-bijiben:before {
+	  content: "\e776";
+	}
+	
+	.icon-xingzhuang:before {
+	  content: "\e623";
+	}
+	
+	.icon-shouji:before {
+	  content: "\e603";
+	}
